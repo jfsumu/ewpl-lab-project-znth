@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZnthHost | Power Your Digital Presence with Reliable Hosting</title>
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="ZnthHost offers high-performance cloud hosting, Managed & Unmanaged VPS, and Dedicated Bare Metal servers for developers, businesses, and growing projects.">
+  <meta name="keywords" content="web hosting, VPS hosting, dedicated servers, cloud hosting, ZnthHost, bKash payment hosting">
+  <meta name="author" content="ZnthHost Developer Team">
+  
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation Bar -->
+  <header id="main-header">
+    <div class="container nav-container">
+      <!-- Logo and Brand Name -->
+      <a href="#home" class="logo-link" id="nav-brand-logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-server"></i>
+        </div>
+        <span class="logo-text">Znth<span class="text-gradient">Host</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-navigation-menu">
+        <a href="#home" class="nav-link active" id="link-home">Home</a>
+        <a href="#services" class="nav-link" id="link-services">Services</a>
+        <a href="#pricing" class="nav-link" id="link-pricing">Hosting Plans</a>
+        <a href="#features" class="nav-link" id="link-features">Features</a>
+        <a href="#faq" class="nav-link" id="link-faq">FAQ</a>
+        <a href="#policies" class="nav-link" id="link-policies">Policies</a>
+        <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+        
+        <!-- Mobile actions appended dynamically or statically hidden/shown -->
+        <div class="mobile-nav-actions" style="display: none;">
+          <a href="#" class="btn btn-secondary nav-login" id="btn-login-mob">Login</a>
+          <a href="#pricing" class="btn btn-primary" id="btn-get-started-mob">Get Started</a>
+        </div>
+      </nav>
+
+      <!-- CTA / Action Buttons -->
+      <div class="nav-actions">
+        <a href="#" class="nav-login" id="btn-nav-login">Login</a>
+        <a href="#pricing" class="btn btn-primary" id="btn-nav-started">Get Started</a>
+      </div>
+
+      <!-- Hamburger Menu for Mobile -->
+      <button class="hamburger" id="hamburger-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal active">
+        <div class="hero-tag">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Next-Generation Cloud Solutions</span>
+        </div>
+        <h1 class="hero-title">Power Your Digital Presence with <span class="text-gradient">Reliable Hosting</span></h1>
+        <p class="hero-subtitle">High-performance hosting solutions designed for developers, businesses, and growing online projects. Experience unmatched uptime and developer-centric tools.</p>
+        <div class="hero-btns">
+          <a href="#pricing" class="btn btn-primary" id="hero-btn-start">
+            Get Started
+            <i class="fa-solid fa-arrow-right btn-icon"></i>
+          </a>
+          <a href="#services" class="btn btn-secondary" id="hero-btn-plans">View Plans</a>
+        </div>
+      </div>
+      
+      <div class="hero-graphics reveal active">
+        <!-- Floating glow ambient backgrounds -->
+        <div class="hero-glow-blob"></div>
+        <div class="hero-glow-blob-secondary"></div>
+        
+        <!-- Interactive server rack container -->
+        <div class="server-rack-wrapper">
+          <!-- Floating cloud icons -->
+          <div class="floating-element fe-1" id="float-icon-cloud"><i class="fa-solid fa-cloud"></i></div>
+          <div class="floating-element fe-2" id="float-icon-shield"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="floating-element fe-3" id="float-icon-db"><i class="fa-solid fa-database"></i></div>
+          
+          <div class="server-rack" id="hero-server-illustration">
+            <div class="server-unit">
+              <div class="server-indicator">
+                <span class="server-dot active"></span>
+                <span class="server-dot pulse"></span>
+              </div>
+              <div class="server-label">CPU NODE 01</div>
+              <div class="server-lines">
+                <div class="server-line fill-90"></div>
+              </div>
+            </div>
+            <div class="server-unit">
+              <div class="server-indicator">
+                <span class="server-dot active"></span>
+                <span class="server-dot"></span>
+              </div>
+              <div class="server-label">RAM NODE 02</div>
+              <div class="server-lines">
+                <div class="server-line fill-70"></div>
+              </div>
+            </div>
+            <div class="server-unit">
+              <div class="server-indicator">
+                <span class="server-dot active"></span>
+                <span class="server-dot active"></span>
+              </div>
+              <div class="server-label">SSD STORAGE</div>
+              <div class="server-lines">
+                <div class="server-line fill-50"></div>
+              </div>
+            </div>
+            <div class="server-unit">
+              <div class="server-indicator">
+                <span class="server-dot active"></span>
+                <span class="server-dot pulse"></span>
+              </div>
+              <div class="server-label">TRAFFIC GATE</div>
+              <div class="server-lines">
+                <div class="server-line fill-90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="stats" id="stats-counter-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stats-card reveal" id="stat-card-uptime">
+          <div class="stats-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <div class="stats-number" data-target="99.9" data-decimals="1" id="stat-num-uptime">0%</div>
+          <div class="stats-label">Uptime Guarantee</div>
+        </div>
+        <div class="stats-card reveal" id="stat-card-support">
+          <div class="stats-icon"><i class="fa-solid fa-headset"></i></div>
+          <div class="stats-number text-gradient-purple" data-target="24" data-suffix="/7" id="stat-num-support">0</div>
+          <div class="stats-label">Live Support</div>
+        </div>
+        <div class="stats-card reveal" id="stat-card-clients">
+          <div class="stats-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="stats-number" data-target="500" data-suffix="+" id="stat-num-clients">0</div>
+          <div class="stats-label">Active Clients</div>
+        </div>
+        <div class="stats-card reveal" id="stat-card-infra">
+          <div class="stats-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="stats-number text-gradient-purple" data-target="12" data-suffix=" Locations" id="stat-num-infra">0</div>
+          <div class="stats-label">Global Infrastructure</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Core Services</span>
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-desc">We deliver state-of-the-art server solutions and management services optimized for performance, scalability, and robust security.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1: Shared Hosting -->
+        <div class="service-card reveal" id="service-card-shared">
+          <div class="service-icon-box"><i class="fa-solid fa-rocket"></i></div>
+          <h3 class="service-title">Shared Hosting</h3>
+          <p class="service-desc">Economical and beginner-friendly web hosting tailored for individuals, personal portfolios, and small commercial sites.</p>
+        </div>
+        <!-- Card 2: VPS Hosting -->
+        <div class="service-card reveal" id="service-card-vps">
+          <div class="service-icon-box"><i class="fa-solid fa-server"></i></div>
+          <h3 class="service-title">VPS Hosting</h3>
+          <p class="service-desc">Virtual Private Servers featuring high computing speeds and dedicated SSD hardware partitions for ambitious applications.</p>
+        </div>
+        <!-- Card 3: Managed Hosting -->
+        <div class="service-card reveal" id="service-card-managed">
+          <div class="service-icon-box"><i class="fa-solid fa-user-gear"></i></div>
+          <h3 class="service-title">Managed Hosting</h3>
+          <p class="service-desc">Total infrastructure oversight. Let our cloud experts manage configuration, updates, monitoring, and backups.</p>
+        </div>
+        <!-- Card 4: Dedicated Servers -->
+        <div class="service-card reveal" id="service-card-dedicated">
+          <div class="service-icon-box"><i class="fa-solid fa-cubes"></i></div>
+          <h3 class="service-title">Dedicated Servers</h3>
+          <p class="service-desc">Bare-metal enterprise configurations offering isolated environments, root commands, and maximum hardware control.</p>
+        </div>
+        <!-- Card 5: Domain Registration -->
+        <div class="service-card reveal" id="service-card-domain">
+          <div class="service-icon-box"><i class="fa-solid fa-globe"></i></div>
+          <h3 class="service-title">Domain Registration</h3>
+          <p class="service-desc">Instantly claim your brand domain identity with secure registration controls and automatic DNS management setups.</p>
+        </div>
+        <!-- Card 6: Website Management -->
+        <div class="service-card reveal" id="service-card-management">
+          <div class="service-icon-box"><i class="fa-solid fa-gauge-high"></i></div>
+          <h3 class="service-title">Website Management</h3>
+          <p class="service-desc">Maximize your performance indices. We handle constant optimization sweeps, platform updates, and speed audits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose ZnthHost Section -->
+  <section id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Key Advantages</span>
+        <h2 class="section-title">Why Choose ZnthHost</h2>
+        <p class="section-desc">Experience cutting-edge capabilities and enterprise-grade infrastructure built directly into every single hosting option.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1: SSD Storage -->
+        <div class="feature-card reveal" id="feature-card-ssd">
+          <div class="feature-icon-box"><i class="fa-solid fa-microchip"></i></div>
+          <h3 class="feature-title">SSD Storage</h3>
+          <p class="feature-desc">NVMe SSD hardware arrays ensuring instant database query execution and ultra-fast page rendering.</p>
+        </div>
+        <!-- Feature 2: High Availability -->
+        <div class="feature-card reveal" id="feature-card-ha">
+          <div class="feature-icon-box"><i class="fa-solid fa-network-wired"></i></div>
+          <h3 class="feature-title">High Availability</h3>
+          <p class="feature-desc">Redundant power lines and cluster servers routing traffic dynamically to eliminate system downtime.</p>
+        </div>
+        <!-- Feature 3: Fast Network -->
+        <div class="feature-card reveal" id="feature-card-network">
+          <div class="feature-icon-box"><i class="fa-solid fa-gauge-simple-high"></i></div>
+          <h3 class="feature-title">Fast Network</h3>
+          <p class="feature-desc">10Gbps high-bandwidth backbone pipelines routing information with negligible localized latency.</p>
+        </div>
+        <!-- Feature 4: DDoS Protection -->
+        <div class="feature-card reveal" id="feature-card-ddos">
+          <div class="feature-icon-box"><i class="fa-solid fa-shield-virus"></i></div>
+          <h3 class="feature-title">DDoS Protection</h3>
+          <p class="feature-desc">Advanced scrubbing centers detecting and isolating malicious traffic before it reaches your applications.</p>
+        </div>
+        <!-- Feature 5: Daily Backups -->
+        <div class="feature-card reveal" id="feature-card-backups">
+          <div class="feature-icon-box"><i class="fa-solid fa-rotate-left"></i></div>
+          <h3 class="feature-title">Daily Backups</h3>
+          <p class="feature-desc">Automated system restore checkpoints securely stored in external storage containers for security.</p>
+        </div>
+        <!-- Feature 6: One-Click Deployments -->
+        <div class="feature-card reveal" id="feature-card-deploy">
+          <div class="feature-icon-box"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+          <h3 class="feature-title">One-Click Deploy</h3>
+          <p class="feature-desc">Deploy popular environments (WordPress, Node, Docker) instantly with our web control panels.</p>
+        </div>
+        <!-- Feature 7: 24/7 Support -->
+        <div class="feature-card reveal" id="feature-card-support-24">
+          <div class="feature-icon-box"><i class="fa-solid fa-headset"></i></div>
+          <h3 class="feature-title">24/7 Live Support</h3>
+          <p class="feature-desc">Instant replies from qualified server administrators available around the clock to debug issues.</p>
+        </div>
+        <!-- Feature 8: Scalable Infrastructure -->
+        <div class="feature-card reveal" id="feature-card-scaling">
+          <div class="feature-icon-box"><i class="fa-solid fa-expand"></i></div>
+          <h3 class="feature-title">Scalable Infra</h3>
+          <p class="feature-desc">Easily scale up RAM, CPU cores, or storage arrays with single sliders without any server downtime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Flexible Pricing</span>
+        <h2 class="section-title">Choose Your Hosting Solution</h2>
+        <p class="section-desc">Select the perfect hosting configuration crafted for your development projects and corporate enterprise systems.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Product 1: Starter Shared Hosting -->
+        <div class="pricing-card reveal" id="plan-starter-shared">
+          <h3 class="plan-name">Starter Shared</h3>
+          <p class="plan-desc">Best choice for simple static websites and hobby developers.</p>
+          <div class="plan-price-wrapper">
+            <span class="plan-currency">৳</span>
+            <span class="plan-price">199</span>
+            <span class="plan-period">/mo</span>
+          </div>
+          <h4 class="plan-features-title">Core Features:</h4>
+          <div class="plan-features">
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>1 Website</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>10GB SSD Storage</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Free SSL Certificate</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Email Hosting Included</span></div>
+            <div class="plan-feature-item disabled"><i class="fa-solid fa-xmark"></i> <span>No Root Access</span></div>
+          </div>
+          <button class="btn btn-secondary plan-btn buy-now-btn" data-product="Starter Shared Hosting" data-price="199" id="btn-buy-starter">Buy Now</button>
+        </div>
+
+        <!-- Product 2: Business Hosting -->
+        <div class="pricing-card reveal popular" id="plan-business">
+          <span class="pricing-badge">Recommended</span>
+          <h3 class="plan-name">Business Hosting</h3>
+          <p class="plan-desc">Optimized performance parameters for growing commercial websites.</p>
+          <div class="plan-price-wrapper">
+            <span class="plan-currency">৳</span>
+            <span class="plan-price">499</span>
+            <span class="plan-period">/mo</span>
+          </div>
+          <h4 class="plan-features-title">Core Features:</h4>
+          <div class="plan-features">
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>10 Websites</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>50GB SSD Storage</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Free SSL Certificate</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Automated Daily Backup</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Priority Tech Support</span></div>
+          </div>
+          <button class="btn btn-primary plan-btn buy-now-btn" data-product="Business Hosting" data-price="499" id="btn-buy-business">Buy Now</button>
+        </div>
+
+        <!-- Product 3: Managed VPS -->
+        <div class="pricing-card reveal" id="plan-managed-vps">
+          <h3 class="plan-name">Managed VPS</h3>
+          <p class="plan-desc">Full server resources paired with hands-off administration.</p>
+          <div class="plan-price-wrapper">
+            <span class="plan-currency">৳</span>
+            <span class="plan-price">1499</span>
+            <span class="plan-period">/mo</span>
+          </div>
+          <h4 class="plan-features-title">Core Features:</h4>
+          <div class="plan-features">
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>2 vCPU Cores / 4GB RAM</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>80GB SSD Storage Space</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Complete Expert Management</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Free Migration Assistance</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Continuous Server Audit</span></div>
+          </div>
+          <button class="btn btn-secondary plan-btn buy-now-btn" data-product="Managed VPS" data-price="1499" id="btn-buy-managed">Buy Now</button>
+        </div>
+
+        <!-- Product 4: Unmanaged VPS -->
+        <div class="pricing-card reveal" id="plan-unmanaged-vps">
+          <h3 class="plan-name">Unmanaged VPS</h3>
+          <p class="plan-desc">For developers who want full root access control over systems.</p>
+          <div class="plan-price-wrapper">
+            <span class="plan-currency">৳</span>
+            <span class="plan-price">999</span>
+            <span class="plan-period">/mo</span>
+          </div>
+          <h4 class="plan-features-title">Core Features:</h4>
+          <div class="plan-features">
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>2 vCPU Cores / 4GB RAM</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>80GB SSD Storage Space</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Root Access & OS Options</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Fixed Dedicated IPv4 IP</span></div>
+            <div class="plan-feature-item disabled"><i class="fa-solid fa-xmark"></i> <span>Self-Managed Maintenance</span></div>
+          </div>
+          <button class="btn btn-secondary plan-btn buy-now-btn" data-product="Unmanaged VPS" data-price="999" id="btn-buy-unmanaged">Buy Now</button>
+        </div>
+
+        <!-- Product 5: Dedicated Bare Metal -->
+        <div class="pricing-card reveal" id="plan-dedicated-baremetal">
+          <h3 class="plan-name">Dedicated Bare Metal</h3>
+          <p class="plan-desc">Isolated physical environment for extreme performance demands.</p>
+          <div class="plan-price-wrapper">
+            <span class="plan-currency">৳</span>
+            <span class="plan-price">4999</span>
+            <span class="plan-period">/mo</span>
+          </div>
+          <h4 class="plan-features-title">Core Features:</h4>
+          <div class="plan-features">
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Isolated Dedicated CPUs</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>32GB ECC RAM Allocation</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>1TB Fast NVMe SSD Array</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>10Gbps Network Port</span></div>
+            <div class="plan-feature-item"><i class="fa-solid fa-check"></i> <span>Total Physical Isolation</span></div>
+          </div>
+          <button class="btn btn-secondary plan-btn buy-now-btn" data-product="Dedicated Bare Metal Server" data-price="4999" id="btn-buy-dedicated">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Common Queries</h2>
+        <p class="section-desc">Get answers to the most common questions regarding our server offerings, architecture details, and administrative policies.</p>
+      </div>
+
+      <div class="faq-container reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item" id="faq-item-1">
+          <div class="faq-header">
+            <h3 class="faq-question">What is VPS Hosting?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              VPS stands for Virtual Private Server. VPS hosting works by partitioning a single physical host server into multiple virtual environments using hypervisor technology. Unlike standard shared web hosting, you get fully dedicated allocations of memory (RAM), storage (SSD), and CPU cycles that are isolated from other accounts.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item" id="faq-item-2">
+          <div class="faq-header">
+            <h3 class="faq-question">What is the difference between Managed and Unmanaged VPS?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              In Managed VPS hosting, our technical team handles setup operations, regular updates, patches, firewall parameters, security monitoring, and backup restores. Unmanaged VPS hosting gives you root level OS shell commands to configure your servers manually. It is best suited for experienced developers who want direct container control and do not require administrative assistance.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item" id="faq-item-3">
+          <div class="faq-header">
+            <h3 class="faq-question">Do you provide backups?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              Yes, our hosting systems include off-site data vaults. Business Hosting, Managed VPS, and Dedicated servers feature automated daily system snapshots with 7-day version histories. Shared and Unmanaged plans include manual backup utilities within the hosting cPanels.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item" id="faq-item-4">
+          <div class="faq-header">
+            <h3 class="faq-question">Is technical support available 24/7?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              Absolutely. ZnthHost provides 24/7/365 customer support. Our server experts can be contacted anytime via live chat or our ticket portal to troubleshoot infrastructure bottlenecks, routing issues, or hardware anomalies.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item" id="faq-item-5">
+          <div class="faq-header">
+            <h3 class="faq-question">Can I upgrade my hosting plan later?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              Yes, upgrading can be triggered instantly from the customer portal. Our virtualization layer allows scaling CPU cores, memory limits, and disk space seamlessly. The migration process requires zero downtime and carries over all existing system files and configurations automatically.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-item" id="faq-item-6">
+          <div class="faq-header">
+            <h3 class="faq-question">Do you offer SSL certificates?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              Yes, free Let's Encrypt Wildcard SSL certificates are generated automatically for all domain names and subdomain configurations hosted on ZnthHost servers, providing HTTPS encryption out of the box.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="faq-item" id="faq-item-7">
+          <div class="faq-header">
+            <h3 class="faq-question">What is your uptime guarantee?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              ZnthHost delivers a 99.9% service level agreement (SLA) uptime guarantee. Our data centers feature redundant power supplies, multiple telecom uplink nodes, and active hardware clustering to keep websites online continuously.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 8 -->
+        <div class="faq-item" id="faq-item-8">
+          <div class="faq-header">
+            <h3 class="faq-question">How long does server deployment take?</h3>
+            <div class="faq-icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-panel">
+            <div class="faq-answer">
+              Standard VPS plans and shared hosting environments are provisioned automatically within 60 seconds after payment confirmation. Dedicated Bare-metal server setups require human checks and are ready for terminal commands within 1 to 4 hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Policies Section -->
+  <section id="policies">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Terms & Regulations</span>
+        <h2 class="section-title">Our Policies</h2>
+        <p class="section-desc">Learn about the operational frameworks, privacy protections, and user responsibilities governing ZnthHost products.</p>
+      </div>
+
+      <div class="policies-grid">
+        <!-- Policy 1: Terms of Service -->
+        <div class="policy-card reveal" id="policy-card-tos">
+          <div class="policy-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3 class="policy-title">Terms of Service</h3>
+          <ul class="policy-desc-list">
+            <li>Users must maintain valid ownership records on products.</li>
+            <li>Fair usage policies limit extreme CPU-hogging background scripts.</li>
+            <li>Resource caps protect server stability for neighboring users.</li>
+            <li>Zero-tolerance policy for spreading phishing links.</li>
+          </ul>
+        </div>
+
+        <!-- Policy 2: Refund Policy -->
+        <div class="policy-card reveal" id="policy-card-refund">
+          <div class="policy-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
+          <h3 class="policy-title">Refund Policy</h3>
+          <ul class="policy-desc-list">
+            <li>7-day unconditional money-back guarantee on hosting plans.</li>
+            <li>Eligibility applies strictly to initial subscriptions.</li>
+            <li>Refund claims exclude third-party domain acquisitions.</li>
+            <li>Violations of network rules void refund eligibility.</li>
+          </ul>
+        </div>
+
+        <!-- Policy 3: Privacy Policy -->
+        <div class="policy-card reveal" id="policy-card-privacy">
+          <div class="policy-icon"><i class="fa-solid fa-user-shield"></i></div>
+          <h3 class="policy-title">Privacy Policy</h3>
+          <ul class="policy-desc-list">
+            <li>Strict data encryption blocks unauthorized internal access.</li>
+            <li>We do not sell user transaction metrics to advertisers.</li>
+            <li>Tracking cookies strictly manage dashboard sign-in tasks.</li>
+            <li>Regular safety scans protect server directories.</li>
+          </ul>
+        </div>
+
+        <!-- Policy 4: Acceptable Use -->
+        <div class="policy-card reveal" id="policy-card-aup">
+          <div class="policy-icon"><i class="fa-solid fa-ban"></i></div>
+          <h3 class="policy-title">Acceptable Use</h3>
+          <ul class="policy-desc-list">
+            <li>Hosting DDoS scripts, botnets, or miners is prohibited.</li>
+            <li>Copyrighted files cannot be hosted without permissions.</li>
+            <li>E-mail spam scripts trigger automated account locks.</li>
+            <li>Security alerts prompt immediate remediation.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-desc">Do you have custom enterprise deployment requests or need technical guidance? Reach out to our specialist support team.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Column -->
+        <div class="contact-info-container reveal" id="contact-details-box">
+          <div>
+            <div class="contact-meta-list">
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-meta-text">
+                  <h4>Email Support</h4>
+                  <p><a href="mailto:support@zenthhost.com" id="mail-support">support@zenthhost.com</a></p>
+                </div>
+              </div>
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-meta-text">
+                  <h4>Call Us</h4>
+                  <p><a href="tel:+8801234567890" id="phone-support">+880 1XXXXXXXXX</a></p>
+                </div>
+              </div>
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="contact-meta-text">
+                  <h4>Head Office</h4>
+                  <p id="location-support">Rajshahi, Bangladesh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="contact-socials-title">Follow Our Channels</h4>
+            <div class="contact-social-icons" id="social-links-box">
+              <a href="#" class="social-icon-btn fb" aria-label="Facebook Link" id="social-fb"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="social-icon-btn in" aria-label="LinkedIn Link" id="social-in"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon-btn git" aria-label="GitHub Link" id="social-git"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="social-icon-btn x" aria-label="Twitter Link" id="social-x"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-form-card reveal" id="contact-form-container">
+          <form id="contact-form">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Sabiha Jahan" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. contact@domain.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" class="form-input" placeholder="What are you writing about?" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" class="form-input" placeholder="Detail your server query or request..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary form-submit-btn" id="contact-submit-btn">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane btn-icon"></i>
+            </button>
+            <div class="form-status" id="form-status-msg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand" id="footer-branding-col">
+        <h3><i class="fa-solid fa-server text-gradient"></i> ZnthHost</h3>
+        <p class="footer-desc">Premium hosting solutions delivering top-tier cloud architecture, physical servers, and domain services. Built for developers, trusted by enterprises worldwide.</p>
+      </div>
+
+      <div class="footer-col" id="footer-services-col">
+        <h4>Hosting Services</h4>
+        <div class="footer-links">
+          <a href="#pricing" class="footer-link">Shared Hosting</a>
+          <a href="#pricing" class="footer-link">VPS Hosting</a>
+          <a href="#pricing" class="footer-link">Managed VPS</a>
+          <a href="#pricing" class="footer-link">Dedicated Servers</a>
+        </div>
+      </div>
+
+      <div class="footer-col" id="footer-resources-col">
+        <h4>Resources</h4>
+        <div class="footer-links">
+          <a href="#features" class="footer-link">Infrastructure</a>
+          <a href="#policies" class="footer-link">Terms & Services</a>
+          <a href="#policies" class="footer-link">Refund Guidelines</a>
+          <a href="#policies" class="footer-link">Data Privacy</a>
+        </div>
+      </div>
+
+      <div class="footer-col" id="footer-support-col">
+        <h4>Client Support</h4>
+        <div class="footer-links">
+          <a href="#contact" class="footer-link">Contact Sales</a>
+          <a href="#faq" class="footer-link">FAQ Support</a>
+          <a href="mailto:support@zenthhost.com" class="footer-link">E-Mail Helpdesk</a>
+          <a href="#home" class="footer-link">Server Status</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container bottom-footer" id="bottom-footer-bar">
+      <div class="copyright" id="footer-copyright-text">
+        &copy; 2026 ZnthHost. All Rights Reserved. Designed for University E-Commerce Project.
+      </div>
+      <div class="bottom-footer-links" id="bottom-footer-nav">
+        <a href="#policies" class="bottom-footer-link">Terms</a>
+        <a href="#policies" class="bottom-footer-link">Privacy Policy</a>
+        <a href="#policies" class="bottom-footer-link">Refund Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Purchase Modal System
+       ========================================================================= -->
+  <div class="modal-backdrop" id="purchase-modal-backdrop">
+    
+    <!-- Modal 1: Customer Details Form -->
+    <div class="modal-card" id="modal-checkout-details">
+      <div class="modal-header">
+        <h3 class="modal-title">Checkout Details</h3>
+        <button class="modal-close-btn" id="close-checkout-modal" aria-label="Close Modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="purchase-summary-box">
+          <div class="summary-row">
+            <span class="summary-label">Selected Plan:</span>
+            <span class="summary-val" id="checkout-plan-name">Starter Shared Hosting</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Subscription Rate:</span>
+            <span class="summary-val price" id="checkout-plan-price">৳199/month</span>
+          </div>
+        </div>
+        
+        <form id="checkout-details-form">
+          <div class="form-group">
+            <label for="cust-name">Full Name</label>
+            <input type="text" id="cust-name" class="form-input" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="cust-email">Email Address</label>
+            <input type="email" id="cust-email" class="form-input" placeholder="Enter your email address" required>
+          </div>
+          <div class="form-group">
+            <label for="cust-phone">Phone Number</label>
+            <input type="tel" id="cust-phone" class="form-input" placeholder="e.g. +8801700000000" required>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit-btn" id="btn-proceed-bkash" style="margin-top: 10px;">
+            <span>Proceed to bKash Payment</span>
+            <i class="fa-solid fa-credit-card btn-icon"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal 2: Fake bKash Payment UI -->
+    <div class="modal-card bkash-modal" id="modal-bkash-gateway">
+      <!-- bKash Pink Header -->
+      <div class="bkash-header-box">
+        <div class="bkash-logo-container">
+          <div class="bkash-logo-placeholder">
+            <img src="https://www.logo.wine/a/logo/BKash/BKash-Icon-Logo.wine.svg" alt="bKash Logo" class="bkash-logo-svg" style="width: 100%; height: 100%; object-fit: contain;">
+          </div>
+          <div class="bkash-header-text">
+            <h3>bKash Checkout</h3>
+            <p>Secure Merchant Payment</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="close-bkash-modal" style="color: white; border: none; font-size: 1.4rem;" aria-label="Close bKash Modal">&times;</button>
+      </div>
+      
+      <!-- Merchant Metadata Panel -->
+      <div class="bkash-merchant-info">
+        <div>
+          <span class="bkash-m-label">Merchant:</span>
+          <span class="bkash-m-val">ZnthHost</span>
+        </div>
+        <div>
+          <span class="bkash-m-label">Amount:</span>
+          <span class="bkash-m-val amount" id="bkash-pay-amount">৳199</span>
+        </div>
+      </div>
+      
+      <!-- Form Input Controls -->
+      <div class="bkash-form-body">
+        <div class="bkash-instruction-card">
+          Enter your bKash mobile number and security PIN to authorize the payment.
+        </div>
+        
+        <form id="bkash-payment-form">
+          <!-- Step 1: Mobile Number -->
+          <div class="bkash-input-group" id="bkash-mob-group">
+            <label for="bkash-mobile-num">bKash Account Number</label>
+            <input type="tel" id="bkash-mobile-num" class="bkash-text-input" placeholder="e.g. 017XXXXXXXX" pattern="01[3-9][0-9]{8}" title="Please enter a valid 11-digit bKash account number starting with 01" required>
+          </div>
+          
+          <!-- Step 2: PIN (Will be toggled / shown together for streamlined SPA execution) -->
+          <div class="bkash-input-group" id="bkash-pin-group">
+            <label for="bkash-pin">Enter 5-Digit PIN</label>
+            <input type="password" id="bkash-pin" class="bkash-text-input" placeholder="•••••" maxlength="5" pattern="[0-9]{5}" title="Please enter your 5-digit security PIN" required>
+          </div>
+        </form>
+      </div>
+      
+      <!-- Actions buttons -->
+      <div class="bkash-actions">
+        <button type="button" class="bkash-btn bkash-btn-cancel" id="btn-bkash-cancel">Close</button>
+        <button type="submit" form="bkash-payment-form" class="bkash-btn bkash-btn-confirm" id="btn-bkash-confirm">Confirm</button>
+      </div>
+      
+      <!-- Logo brand stamp -->
+      <div class="bkash-footer-brand">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Authorized bKash Gateway Agent</span>
+      </div>
+    </div>
+
+    <!-- Modal 3: Payment Loading Screen -->
+    <div class="modal-card" id="modal-payment-loader">
+      <div class="modal-loader-body">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Processing Payment...</div>
+        <div class="loader-sub">Verifying with secure bKash banking servers. Please do not refresh.</div>
+      </div>
+    </div>
+
+    <!-- Modal 4: Payment Success details -->
+    <div class="modal-card" id="modal-payment-success">
+      <div class="modal-success-body">
+        <div class="success-icon-box">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <h3 class="success-title">Payment Successful</h3>
+        <p class="success-subtitle">Your subscription has been set up successfully. Server provisioning is in progress.</p>
+        
+        <div class="success-receipt">
+          <div class="receipt-row">
+            <span class="receipt-label">Product Name:</span>
+            <span class="receipt-val" id="receipt-product-name">Starter Shared Hosting</span>
+          </div>
+          <div class="receipt-row">
+            <span class="receipt-label">Amount Paid:</span>
+            <span class="receipt-val highlight" id="receipt-amount">৳199.00 BDT</span>
+          </div>
+          <div class="receipt-row">
+            <span class="receipt-label">Transaction ID:</span>
+            <span class="receipt-val" id="receipt-txid">BK8D5H92K1</span>
+          </div>
+          <div class="receipt-row">
+            <span class="receipt-label">Status:</span>
+            <span class="receipt-val" style="color: var(--success); font-weight: 700;">SUCCESSFUL</span>
+          </div>
+        </div>
+        
+        <button class="btn btn-primary success-action-btn" id="btn-receipt-close">Close Receipt & Go to Console</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
