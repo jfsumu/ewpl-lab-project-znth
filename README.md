@@ -6,10 +6,9 @@ A modern, responsive, and interactive web hosting business landing page built us
 
 ## 🌐 Live Demo
 
-> Replace with your deployed website URL
 
 ```
-https://your-website-url.pages.dev/
+https://znth.salaxar.com/
 ```
 
 ---
@@ -91,14 +90,14 @@ ZnthHost/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ZnthHost.git
+https://github.com/jfsumu/ewpl-lab-project-znth
 ```
 
 2. Open the project folder.
 
 3. Launch `index.html` in your preferred web browser.
 
-Alternatively, you can use **Visual Studio Code** with the **Live Server** extension for a better development experience.
+Alternatively, you can use **Visual Studio Code** with the **Live Server** extension for a better code experience.
 
 ---
 
@@ -127,18 +126,7 @@ Potential future enhancements include:
 
 ---
 
-## 📸 Screenshots
 
-Add screenshots of the website here.
-
-Example:
-
-```
-/screenshots/homepage.png
-/screenshots/pricing.png
-```
-
----
 
 ## 📄 License
 
@@ -148,6 +136,6 @@ This project is developed for educational purposes.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Jannatul Ferdous Sumu** **Mst.Umme Sabiha** **Md. Mehedi Hasan Chowdhury Mahi**
 
-GitHub: https://github.com/yourusername
+
